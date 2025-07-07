@@ -4,6 +4,8 @@ import Button from "../components/Button";
 
 import Statistic from "../components/Statistic";
 
+import TechCard from "../components/TechCard";
+
 const MainPage = () => {
   return (
     <>
@@ -37,6 +39,80 @@ const MainPage = () => {
           </div>
         </div>
       </main>
+      <section className="px-8 py-20">
+        <div>
+          <h3 className="text-2xl font-bold text-white">About Me</h3>
+          <p className="text-base font-normal text-white opacity-80 mt-2">
+            I'm junior fullstack web developer, i cant use modern tech like
+            Tailwind CSS React, and Node JS.
+          </p>
+          <p className="text-base font-normal text-white opacity-80 mt-2">
+            I'm junior fullstack web developer, i cant use modern tech like
+            Tailwind CSS React, and Node JS.
+          </p>
+          <p className="text-base font-normal text-white opacity-80 mt-2">
+            I'm junior fullstack web developer, i cant use modern tech like
+            Tailwind CSS React, and Node JS.
+          </p>
+        </div>
+      </section>
+      <section className="px-8 py-20">
+        <div>
+          <h3 className="text-2xl font-bold text-white text-center">
+            This is my favorite Tech and Language.
+          </h3>
+          <div className="bg-gray-950 border-2 border-slate-800 rounded-xl mt-10">
+            <a href="">
+              <TechCard width="w-full" border="border-b" icon="/Vector.png" />
+            </a>
+            <a href="">
+              <TechCard
+                width="w-full"
+                border="border-b"
+                icon="/logos_react.png"
+              />
+            </a>
+            <a href="">
+              <TechCard
+                width="w-full"
+                border="border-b"
+                icon="/devicon_astro.png"
+              />
+            </a>
+            <div className="flex">
+              <a href="">
+                <TechCard
+                  width="w-27"
+                  border="border-b"
+                  icon="/logos_nodejs.png"
+                />
+              </a>
+              <a href="">
+                <TechCard
+                  width="w-27"
+                  border="border-b"
+                  icon="/vscode-icons_file-type-js-official.png"
+                />
+              </a>
+              <a href="">
+                <TechCard
+                  width="w-27"
+                  border="border-b"
+                  icon="/fa6-brands_golang.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-8 py-20">
+        <div>
+          <h3 className="text-2xl font-bold text-white">My Projects</h3>
+          <p className="text-base font-normal text-white opacity-80 mt-2">
+            My personal and client project.
+          </p>
+        </div>
+      </section>
     </>
   );
 };

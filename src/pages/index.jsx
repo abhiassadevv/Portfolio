@@ -199,7 +199,7 @@ const MainPage = () => {
               <i className="bi bi-github text-2xl text-white"></i>
               <i className="bi bi-twitter-x text-2xl text-white"></i>
             </div>
-            <p className="text-sm font-normal text-white opacity-80 mt-10">
+            <p className="text-sm font-normal text-white text-center opacity-80 mt-10">
               &copy; 2025 Rehan Abhiassa. All rights reserved.
             </p>
           </div>

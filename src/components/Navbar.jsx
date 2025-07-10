@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 z-2 bg-black flex justify-between items-center px-8 py-10">
+      <nav className="bg-black flex justify-between items-center px-8 py-10">
         <div className="flex justify-start items-center">
           <a href="" className="text-2xl font-bold text-white">
             Abhiassa Dev
